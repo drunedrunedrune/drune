@@ -135,7 +135,7 @@
     margin-right: auto;
   }
   
-  .bio {
+  .press {
     font-family: 'IBM Plex Mono', "Lucida Console", Monaco, monospace;
     width: 600px;
     background-color: #A9A9A9;
@@ -149,6 +149,27 @@
     margin-left: auto;
     margin-right: auto;
   }
+  
+  .press {
+  /* Old Chrome, Safari and Opera */
+  -webkit-column-count: 3;
+  -webkit-column-gap: 40px;
+  -webkit-column-rule: 1px solid gray;
+    
+ /* Old Firefox */
+  -moz-column-count: 3;
+  -moz-column-gap: 40px;
+  -moz-column-rule: 1px solid gray;
+  
+ /* Standard syntax */
+  column-count: 3;
+  column-gap: 40px;
+  column-rule: 1px solid gray;
+}
+
+.bio {
+  -webkit-column-span: 3; /* Chrome, Safari, Opera */
+  column-span: 3;
   
   #albumart {
     width: 500px;
@@ -166,7 +187,8 @@
   <h2 class="title">heavy stoner metal</h2>
   
   <h3 class="title">denver</h3>
-  <div class="bio".
+  <div class="press">
+  <div class="bio">
   <p>Denver Stoner Metal trio DRUNE will self-release their debut EP, SEER, on December 28th, available everywhere online.
   <br/>
   <br/>
