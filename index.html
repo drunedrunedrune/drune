@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+
   <title>DRUNE</title>
   <link rel="icon" type="image/png" href="drunefavi.png" />
   <link href='https://fonts.googleapis.com/css?family=VT323' rel='stylesheet'>
@@ -9,26 +10,27 @@
   <link href='https://fonts.googleapis.com/css?family=Metal Mania' rel='stylesheet'>
   <link href='https://fonts.googleapis.com/css?family=Pirata One' rel='stylesheet'>
   <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+
 <style>
-  
-  body, html{
-    margin-top: auto;
-    margin-bottom: auto;
-    padding:0;
-    font-size: 100%;
+
+body, html{
+  margin-top: auto;
+  margin-bottom: auto;
+  padding:0;
+  font-size: 100%;
 }
-  
-    body {
-  background-image: url("backgroundpurpletree.jpg"); 
+
+body {
+  background-image: url("Drune Album Back.jpg"); 
   background-color: #cccccc; 
   height: 2000px; 
   background-position: center; 
   background-repeat: repeat-y;
   background-size: 100% 100%;
   background-color: #fff;
-  }
+}
   
-  #logo {
+#logo {
   display:block;
   margin-left:auto;
   margin-right:auto;
@@ -37,166 +39,105 @@
   margin-bottom: 50px;
 }
   
-  .title {
-    text-align: center;
-  }
+.title {
+  text-align: center;
+}
+
+h1.title {
+  color: #000;
+  font-size: 120px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-family: 'Pirata One';
+  letter-spacing: 3px;
+}
+
+h2.title {
+  color: #fff;
+  font-style: italic;
+  font-face: bold;
+  font-size: 54px;
+  margin: 0px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h3.title {
+  color: #fff;
+  font-style: italic;
+  font-face: bold;
+  font-size: 40px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+iframe {
+  display: block;
+  margin: 20px auto;
+  border: 0;
+  height: 350px;
+  width: 70%;
+}
+
+.social {
+  text-align: center;
+  margin-bottom: 50px;
+}
   
-  h1.title {
-    color: #000;
-    font-size: 120px;
-    margin-top: 10px;
-    margin-bottom: 0px;
-    font-family: 'Pirata One';
-    letter-spacing: 3px;
-  }
-  h2.title {
-    color: #000;
-    font-style: italic;
-    font-face: bold;
-    font-size: 54px;
-    margin: 0px;
-    font-family: 'Open Sans', sans-serif;
-  }
-  h3.title {
-    color: #000;
-    font-style: italic;
-    font-face: bold;
-    font-size: 40px;
-    margin-top: 0px;
-    margin-bottom: 20px;
-    font-family: 'Open Sans', sans-serif;
-  }
-  iframe {
-      display: block;
-      margin: 20px auto;
-      border: 0; 
-      width: 620px; 
-      height: 120px;
-  }
-  .shows {
-    font-family: 'IBM Plex Mono', "Lucida Console", Monaco, monospace;
-    width: 600px;
-    background-color: #fff;
-    border-style: inset;
-    border-width: 5px;
-    border-color: #D3D3D3;
-    color: #000;
-    text-align: center;
-    padding: 10px;
-    margin: 20px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  h2.shows {
-    font-size: 24px;
-  }
-  .form {
-    font-family: 'IBM Plex Mono', "Lucida Console", Monaco, monospace;
-    display: block;
-    margin: 20px auto;
-    width: 600px;
-    background-color: #A9A9A9;
-    border-radius: 20px;
-    border-style: outset;
-    border-width: 5px;
-    border-color: #D3D3D3;
-    text-align: center;
-    padding: 10px;
-  }
-  #formtitle {
-    margin: 0px 0px 10px 0px;
-  }
-  #box {
-    font-family: 'IBM Plex Mono', "Lucida Console", Monaco, monospace;
-    border-radius: 10px;
-    border-color: #D3D3D3;
-    border: none;
-    margin: 5px 20px;
-    text-align: center;
-  }
-  .contact {
-    text-align: center;
-    font-family: 'VT323';
-  }
-  #email {
-    color: #504949 !important;
-    font-size: 24px;
-  }
-  .social {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 10%;
-    margin-bottom: 50px;
-    margin-top: 50px;
-  }
-  .fa-envelope {
-    color: #000;
-    font-size: 50px;
-    margin-bottom: 10px;
-  }
-  .fa-instagram {
-    color: #000;
-    font-size: 50px;
-    margin-bottom: 10px;
-  }
-    .fa-facebook-square {
-    color: #000;
-    font-size: 50px;
-    margin-bottom: 10px;
-  }
-      
-   .fa-bandcamp {
-    color: #000;
-    font-size: 50px;
-    margin-bottom: 10px;
-  }
-    
-    .fa-spotify{
-    color: #000;
-    font-size: 50px;
-    margin-bottom: 10px;
-  }
+.fa-envelope {
+  color: #fff;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.fa-instagram {
+  color: #fff;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+  
+  .fa-facebook-square {
+  color: #fff;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.fa-bandcamp {
+  color: #fff;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.fa-spotify{
+  color: #fff;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.songs {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
 
 </style>
 </head>
+
 <body>
   <img src="Drune_whiteoutline HIGH RES.png" alt="DruneLogo" id="logo">
-  
- <iframe style="border: 0; width: 400px; height: 605px;" src="https://bandcamp.com/EmbeddedPlayer/album=69569921/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a href="http://drunedenver.bandcamp.com/album/seer">SEER by DRUNE</a></iframe>
-  
-  <h2 class="title">heavy stoner metal</h2>
-  
-  <h3 class="title">denver</h3>
-  
-  <div class="shows">
-    <p>We will keep you updated as shows get rescheduled.</p>
-    <p>Tune into our FB and IG for livestreams.</p>
-    <p>Be safe, support artists, buy local.</p>
+  <h3 class="title">self titled full length album</h3>
+  <h4>out everywhere october 30, 2021</h4>
+  <div class="songs">
+    <iframe scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1306434568%3Fsecret_token%3Ds-bRRrL8d3pkm&color=%230c0909&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
+    </iframe>
   </div>
-  
-  <div class="contact"> 
-        <a href="mailto:drunedenver@gmail.com" id="email"><i class="far fa-envelope"></i></a>
-        <a href="http://www.instagram.com/drunedenver"><i class="fab fa-instagram"></i></a>
-        <a href="http://www.facebook.com/drunedenver"><i class="fab fa-facebook-square"></i></a>
-        <a href="https://open.spotify.com/album/3kOF17zcb1wcp40Dj5UskO?si=jOd2B-p_R9m-x5i6Vvzysw"><i class="fab fa-spotify"></i></a>
-        <a href="http://drunedenver.bandcamp.com"><i class="fab fa-bandcamp"></i></a>
+
+  <div class="social"> 
+    <a href="mailto:drunedrunedrune@gmail.com" id="email"><i class="far fa-envelope"></i></a>
+    <a href="http://www.instagram.com/drune_drune_drune"><i class="fab fa-instagram"></i></a>
+    <a href="http://www.facebook.com/drunedenver"><i class="fab fa-facebook-square"></i></a>
+    <a href="https://open.spotify.com/album/3kOF17zcb1wcp40Dj5UskO?si=jOd2B-p_R9m-x5i6Vvzysw"><i class="fab fa-spotify"></i></a>
+    <a href="http://drunedenver.bandcamp.com"><i class="fab fa-bandcamp"></i></a>
   </div>
-  
-  
-<!--
-  <div class="form">
-    <p id="formtitle">contact</h2>
-    <form action="https://formspree.io/drunedenver@gmail.com"
-      method="POST">
-    <input type="text" name="name" value="name" id="box"><br>
-    <input type="email" name="_replyto" value="email" id="box"><br>
-    <textarea name="message" rows="2" cols="30" id="box">
-dear drune...</textarea><br>
-    <input type="submit" value="Send">
-    </textarea>
-  </form>
-  </div>   
--->
 
 </body>
